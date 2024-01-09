@@ -1,0 +1,6 @@
+img{
+    height:auto;
+    width: 25%;
+    object-fit: cover;
+    background-image: url("fat_cat.jpg");
+}
