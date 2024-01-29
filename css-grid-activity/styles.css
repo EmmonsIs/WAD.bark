@@ -1,0 +1,24 @@
+.grid-container{
+    display: grid;
+    grid-template-columns:repeat(8, 2fr);
+    grid-template-rows: 2fr 2 fr 2fr;
+    gap: 5px;
+}
+.title{
+    text-align: center;
+    color: aliceblue;
+}
+.grid-item{
+    background-color: rgba(56, 99, 58, 0.487);
+    border: 5px solid rgb(90, 10, 160);
+    padding: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+
+body{
+    background-color: black;
+    background-image: url(tree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
