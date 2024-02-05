@@ -1,0 +1,11 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px 30% 2fr;
+    grid-template-rows:200px minmax(150px, 1fr);
+    column-gap: 10px;
+}
+.grid-item{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
